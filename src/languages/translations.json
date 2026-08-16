@@ -1,0 +1,529 @@
+{
+  "en": {
+    "commands": {
+      "create": {
+        "name": "create",
+        "description": "Create a temporary email address",
+        "response": "Your temporary email has been created!",
+        "email": "Email",
+        "expiresIn": "Expires in"
+      },
+      "inbox": {
+        "name": "inbox",
+        "description": "Check your temporary email inbox",
+        "noMessages": "No messages in your inbox yet.",
+        "messages": "You have {count} message(s) in your inbox."
+      },
+      "delete": {
+        "name": "delete",
+        "description": "Delete your temporary email address",
+        "success": "Your temporary email has been deleted.",
+        "noEmail": "You don't have an active temporary email."
+      },
+      "language": {
+        "name": "language",
+        "description": "Change the bot language",
+        "current": "Current language: {lang}",
+        "changed": "Language changed to: {lang}",
+        "available": "Available languages: {languages}"
+      }
+    },
+    "admin": {
+      "adddomain": {
+        "name": "adddomain",
+        "description": "Add a custom domain (Admin only)",
+        "success": "Domain {domain} added successfully.",
+        "error": "Failed to add domain."
+      },
+      "removedomain": {
+        "name": "removedomain",
+        "description": "Remove a custom domain (Admin only)",
+        "success": "Domain {domain} removed successfully.",
+        "error": "Failed to remove domain."
+      },
+      "stats": {
+        "name": "stats",
+        "description": "View bot statistics (Admin only)",
+        "totalUsers": "Total Users",
+        "activeEmails": "Active Emails",
+        "totalMessages": "Total Messages"
+      }
+    },
+    "errors": {
+      "generic": "An error occurred. Please try again later.",
+      "permission": "You don't have permission to use this command.",
+      "cooldown": "Please wait before using this command again."
+    },
+    "embeds": {
+      "welcome": {
+        "title": "Welcome to CatchMail Bot",
+        "description": "Create temporary email addresses and receive messages directly in Discord!",
+        "footer": "Made with ❤️"
+      },
+      "emailCreated": {
+        "title": "Temporary Email Created",
+        "color": "Green"
+      },
+      "inboxView": {
+        "title": "Your Inbox",
+        "noMessages": "No messages yet"
+      }
+    }
+  },
+  "tr": {
+    "commands": {
+      "create": {
+        "name": "oluştur",
+        "description": "Geçici bir e-posta adresi oluştur",
+        "response": "Geçici e-postanız oluşturuldu!",
+        "email": "E-posta",
+        "expiresIn": "Sona erme süresi"
+      },
+      "inbox": {
+        "name": "gelen-kutusu",
+        "description": "Geçici e-posta gelen kutunuzu kontrol edin",
+        "noMessages": "Gelen kutunuzda henüz mesaj yok.",
+        "messages": "Gelen kutunuzda {count} mesajınız var."
+      },
+      "delete": {
+        "name": "sil",
+        "description": "Geçici e-posta adresinizi silin",
+        "success": "Geçici e-postanız silindi.",
+        "noEmail": "Aktif bir geçici e-postanız yok."
+      },
+      "language": {
+        "name": "dil",
+        "description": "Bot dilini değiştir",
+        "current": "Mevcut dil: {lang}",
+        "changed": "Dil değiştirildi: {lang}",
+        "available": "Kullanılabilir diller: {languages}"
+      }
+    },
+    "admin": {
+      "adddomain": {
+        "name": "alan-ekle",
+        "description": "Özel alan adı ekle (Yalnızca Admin)",
+        "success": "{domain} alanı başarıyla eklendi.",
+        "error": "Alan eklenemedi."
+      },
+      "removedomain": {
+        "name": "alan-sil",
+        "description": "Özel alan adını kaldır (Yalnızca Admin)",
+        "success": "{domain} alanı başarıyla kaldırıldı.",
+        "error": "Alan kaldırılamadı."
+      },
+      "stats": {
+        "name": "istatistikler",
+        "description": "Bot istatistiklerini görüntüle (Yalnızca Admin)",
+        "totalUsers": "Toplam Kullanıcı",
+        "activeEmails": "Aktif E-postalar",
+        "totalMessages": "Toplam Mesajlar"
+      }
+    },
+    "errors": {
+      "generic": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "permission": "Bu komutu kullanma izniniz yok.",
+      "cooldown": "Bu komutu tekrar kullanmadan önce lütfen bekleyin."
+    },
+    "embeds": {
+      "welcome": {
+        "title": "CatchMail Bot'a Hoş Geldiniz",
+        "description": "Geçici e-posta adresleri oluşturun ve mesajları doğrudan Discord'da alın!",
+        "footer": "❤️ ile yapıldı"
+      },
+      "emailCreated": {
+        "title": "Geçici E-posta Oluşturuldu",
+        "color": "Green"
+      },
+      "inboxView": {
+        "title": "Gelen Kutunuz",
+        "noMessages": "Henüz mesaj yok"
+      }
+    }
+  },
+  "es": {
+    "commands": {
+      "create": {
+        "name": "crear",
+        "description": "Crear una dirección de correo temporal",
+        "response": "¡Tu correo temporal ha sido creado!",
+        "email": "Correo",
+        "expiresIn": "Expira en"
+      },
+      "inbox": {
+        "name": "bandeja",
+        "description": "Verificar la bandeja de entrada",
+        "noMessages": "Aún no hay mensajes en tu bandeja.",
+        "messages": "Tienes {count} mensaje(s) en tu bandeja."
+      },
+      "delete": {
+        "name": "eliminar",
+        "description": "Eliminar tu correo temporal",
+        "success": "Tu correo temporal ha sido eliminado.",
+        "noEmail": "No tienes un correo temporal activo."
+      },
+      "language": {
+        "name": "idioma",
+        "description": "Cambiar el idioma del bot",
+        "current": "Idioma actual: {lang}",
+        "changed": "Idioma cambiado a: {lang}",
+        "available": "Idiomas disponibles: {languages}"
+      }
+    },
+    "errors": {
+      "generic": "Ocurrió un error. Por favor, inténtalo más tarde.",
+      "permission": "No tienes permiso para usar este comando.",
+      "cooldown": "Por favor espera antes de usar este comando nuevamente."
+    }
+  },
+  "fr": {
+    "commands": {
+      "create": {
+        "name": "créer",
+        "description": "Créer une adresse e-mail temporaire",
+        "response": "Votre e-mail temporaire a été créé!",
+        "email": "E-mail",
+        "expiresIn": "Expire dans"
+      },
+      "inbox": {
+        "name": "boîte",
+        "description": "Vérifier votre boîte de réception",
+        "noMessages": "Aucun message dans votre boîte pour le moment.",
+        "messages": "Vous avez {count} message(s) dans votre boîte."
+      },
+      "delete": {
+        "name": "supprimer",
+        "description": "Supprimer votre adresse e-mail temporaire",
+        "success": "Votre e-mail temporaire a été supprimé.",
+        "noEmail": "Vous n'avez pas d'e-mail temporaire actif."
+      },
+      "language": {
+        "name": "langue",
+        "description": "Changer la langue du bot",
+        "current": "Langue actuelle: {lang}",
+        "changed": "Langue changée en: {lang}",
+        "available": "Langues disponibles: {languages}"
+      }
+    },
+    "errors": {
+      "generic": "Une erreur s'est produite. Veuillez réessayer plus tard.",
+      "permission": "Vous n'avez pas la permission d'utiliser cette commande.",
+      "cooldown": "Veuillez attendre avant d'utiliser à nouveau cette commande."
+    }
+  },
+  "de": {
+    "commands": {
+      "create": {
+        "name": "erstellen",
+        "description": "Erstelle eine temporäre E-Mail-Adresse",
+        "response": "Ihre temporäre E-Mail wurde erstellt!",
+        "email": "E-Mail",
+        "expiresIn": "Läuft ab in"
+      },
+      "inbox": {
+        "name": "posteingang",
+        "description": "Überprüfen Sie Ihren Posteingang",
+        "noMessages": "Noch keine Nachrichten in Ihrem Posteingang.",
+        "messages": "Sie haben {count} Nachricht(en) in Ihrem Posteingang."
+      },
+      "delete": {
+        "name": "löschen",
+        "description": "Löschen Sie Ihre temporäre E-Mail",
+        "success": "Ihre temporäre E-Mail wurde gelöscht.",
+        "noEmail": "Sie haben keine aktive temporäre E-Mail."
+      },
+      "language": {
+        "name": "sprache",
+        "description": "Bot-Sprache ändern",
+        "current": "Aktuelle Sprache: {lang}",
+        "changed": "Sprache geändert zu: {lang}",
+        "available": "Verfügbare Sprachen: {languages}"
+      }
+    },
+    "errors": {
+      "generic": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut.",
+      "permission": "Sie haben keine Berechtigung, diesen Befehl zu verwenden.",
+      "cooldown": "Bitte warten Sie, bevor Sie diesen Befehl erneut verwenden."
+    }
+  },
+  "it": {
+    "commands": {
+      "create": {
+        "name": "crea",
+        "description": "Crea un indirizzo email temporaneo",
+        "response": "La tua email temporanea è stata creata!",
+        "email": "Email",
+        "expiresIn": "Scade tra"
+      },
+      "inbox": {
+        "name": "posta",
+        "description": "Controlla la tua casella di posta",
+        "noMessages": "Nessun messaggio nella tua casella ancora.",
+        "messages": "Hai {count} messaggio(i) nella tua casella."
+      },
+      "delete": {
+        "name": "elimina",
+        "description": "Elimina il tuo indirizzo email temporaneo",
+        "success": "La tua email temporanea è stata eliminata.",
+        "noEmail": "Non hai un'email temporanea attiva."
+      },
+      "language": {
+        "name": "lingua",
+        "description": "Cambia la lingua del bot",
+        "current": "Lingua attuale: {lang}",
+        "changed": "Lingua cambiata in: {lang}",
+        "available": "Lingue disponibili: {languages}"
+      }
+    },
+    "errors": {
+      "generic": "Si è verificato un errore. Riprova più tardi.",
+      "permission": "Non hai il permesso di usare questo comando.",
+      "cooldown": "Attendi prima di usare nuovamente questo comando."
+    }
+  },
+  "pt": {
+    "commands": {
+      "create": {
+        "name": "criar",
+        "description": "Criar um endereço de email temporário",
+        "response": "Seu email temporário foi criado!",
+        "email": "Email",
+        "expiresIn": "Expira em"
+      },
+      "inbox": {
+        "name": "caixa",
+        "description": "Verificar sua caixa de entrada",
+        "noMessages": "Ainda não há mensagens na sua caixa.",
+        "messages": "Você tem {count} mensagem(ns) na sua caixa."
+      },
+      "delete": {
+        "name": "deletar",
+        "description": "Deletar seu endereço de email temporário",
+        "success": "Seu email temporário foi deletado.",
+        "noEmail": "Você não tem um email temporário ativo."
+      },
+      "language": {
+        "name": "idioma",
+        "description": "Mudar o idioma do bot",
+        "current": "Idioma atual: {lang}",
+        "changed": "Idioma mudado para: {lang}",
+        "available": "Idiomas disponíveis: {languages}"
+      }
+    },
+    "errors": {
+      "generic": "Ocorreu um erro. Por favor, tente novamente mais tarde.",
+      "permission": "Você não tem permissão para usar este comando.",
+      "cooldown": "Por favor aguarde antes de usar este comando novamente."
+    }
+  },
+  "ru": {
+    "commands": {
+      "create": {
+        "name": "создать",
+        "description": "Создать временный адрес электронной почты",
+        "response": "Ваш временный email создан!",
+        "email": "Email",
+        "expiresIn": "Истекает через"
+      },
+      "inbox": {
+        "name": "входящие",
+        "description": "Проверить входящие сообщения",
+        "noMessages": "Во входящих пока нет сообщений.",
+        "messages": "У вас {count} сообщение(ий) во входящих."
+      },
+      "delete": {
+        "name": "удалить",
+        "description": "Удалить временный адрес электронной почты",
+        "success": "Ваш временный email удален.",
+        "noEmail": "У вас нет активного временного email."
+      },
+      "language": {
+        "name": "язык",
+        "description": "Изменить язык бота",
+        "current": "Текущий язык: {lang}",
+        "changed": "Язык изменен на: {lang}",
+        "available": "Доступные языки: {languages}"
+      }
+    },
+    "errors": {
+      "generic": "Произошла ошибка. Пожалуйста, попробуйте позже.",
+      "permission": "У вас нет разрешения на использование этой команды.",
+      "cooldown": "Пожалуйста, подождите перед повторным использованием этой команды."
+    }
+  },
+  "ja": {
+    "commands": {
+      "create": {
+        "name": "作成",
+        "description": "一時メールアドレスを作成",
+        "response": "一時メールが作成されました！",
+        "email": "メール",
+        "expiresIn": "有効期限"
+      },
+      "inbox": {
+        "name": "受信箱",
+        "description": "受信箱を確認",
+        "noMessages": "まだメッセージはありません。",
+        "messages": "{count}件のメッセージがあります。"
+      },
+      "delete": {
+        "name": "削除",
+        "description": "一時メールアドレスを削除",
+        "success": "一時メールが削除されました。",
+        "noEmail": "アクティブな一時メールはありません。"
+      },
+      "language": {
+        "name": "言語",
+        "description": "ボットの言語を変更",
+        "current": "現在の言語：{lang}",
+        "changed": "言語を{lang}に変更しました",
+        "available": "利用可能な言語：{languages}"
+      }
+    },
+    "errors": {
+      "generic": "エラーが発生しました。後でもう一度お試しください。",
+      "permission": "このコマンドを使用する権限がありません。",
+      "cooldown": "このコマンドを再度使用する前にお待ちください。"
+    }
+  },
+  "zh": {
+    "commands": {
+      "create": {
+        "name": "创建",
+        "description": "创建临时电子邮件地址",
+        "response": "您的临时邮箱已创建！",
+        "email": "邮箱",
+        "expiresIn": "过期时间"
+      },
+      "inbox": {
+        "name": "收件箱",
+        "description": "检查临时邮箱收件箱",
+        "noMessages": "收件箱中暂无消息。",
+        "messages": "您有{count}条消息。"
+      },
+      "delete": {
+        "name": "删除",
+        "description": "删除临时电子邮件地址",
+        "success": "您的临时邮箱已删除。",
+        "noEmail": "您没有活跃的临时邮箱。"
+      },
+      "language": {
+        "name": "语言",
+        "description": "更改机器人语言",
+        "current": "当前语言：{lang}",
+        "changed": "语言已更改为：{lang}",
+        "available": "可用语言：{languages}"
+      }
+    },
+    "errors": {
+      "generic": "发生错误，请稍后重试。",
+      "permission": "您没有权限使用此命令。",
+      "cooldown": "请等待后再使用此命令。"
+    }
+  },
+  "ko": {
+    "commands": {
+      "create": {
+        "name": "생성",
+        "description": "임시 이메일 주소 생성",
+        "response": "임시 이메일이 생성되었습니다!",
+        "email": "이메일",
+        "expiresIn": "만료 시간"
+      },
+      "inbox": {
+        "name": "받은편지함",
+        "description": "임시 이메일 받은편지함 확인",
+        "noMessages": "아직 메시지가 없습니다.",
+        "messages": "{count}개의 메시지가 있습니다."
+      },
+      "delete": {
+        "name": "삭제",
+        "description": "임시 이메일 주소 삭제",
+        "success": "임시 이메일이 삭제되었습니다.",
+        "noEmail": "활성 임시 이메일이 없습니다."
+      },
+      "language": {
+        "name": "언어",
+        "description": "봇 언어 변경",
+        "current": "현재 언어: {lang}",
+        "changed": "언어가 {lang}(으)로 변경되었습니다.",
+        "available": "사용 가능한 언어: {languages}"
+      }
+    },
+    "errors": {
+      "generic": "오류가 발생했습니다. 나중에 다시 시도해주세요.",
+      "permission": "이 명령어를 사용할 권한이 없습니다.",
+      "cooldown": "이 명령어를 다시 사용하기 전에 기다려주세요."
+    }
+  },
+  "ar": {
+    "commands": {
+      "create": {
+        "name": "إنشاء",
+        "description": "إنشاء بريد إلكتروني مؤقت",
+        "response": "تم إنشاء بريدك الإلكتروني المؤقت!",
+        "email": "البريد",
+        "expiresIn": "تنتهي الصلاحية خلال"
+      },
+      "inbox": {
+        "name": "الوارد",
+        "description": "التحقق من صندوق الوارد",
+        "noMessages": "لا توجد رسائل في صندوق الوارد بعد.",
+        "messages": "لديك {count} رسالة في صندوق الوارد."
+      },
+      "delete": {
+        "name": "حذف",
+        "description": "حذف البريد الإلكتروني المؤقت",
+        "success": "تم حذف بريدك الإلكتروني المؤقت.",
+        "noEmail": "ليس لديك بريد إلكتروني مؤقت نشط."
+      },
+      "language": {
+        "name": "اللغة",
+        "description": "تغيير لغة البوت",
+        "current": "اللغة الحالية: {lang}",
+        "changed": "تم تغيير اللغة إلى: {lang}",
+        "available": "اللغات المتاحة: {languages}"
+      }
+    },
+    "errors": {
+      "generic": "حدث خطأ. يرجى المحاولة لاحقاً.",
+      "permission": "ليس لديك صلاحية استخدام هذا الأمر.",
+      "cooldown": "يرجى الانتظار قبل استخدام هذا الأمر مرة أخرى."
+    }
+  },
+  "hi": {
+    "commands": {
+      "create": {
+        "name": "बनाएं",
+        "description": "अस्थायी ईमेल पता बनाएं",
+        "response": "आपका अस्थायी ईमेल बनाया गया है!",
+        "email": "ईमेल",
+        "expiresIn": "समाप्ति समय"
+      },
+      "inbox": {
+        "name": "इनबॉक्स",
+        "description": "अपना इनबॉक्स चेक करें",
+        "noMessages": "आपके इनबॉक्स में अभी तक कोई संदेश नहीं है।",
+        "messages": "आपके इनबॉक्स में {count} संदेश हैं।"
+      },
+      "delete": {
+        "name": "हटाएं",
+        "description": "अपना अस्थायी ईमेल हटाएं",
+        "success": "आपका अस्थायी ईमेल हटा दिया गया है।",
+        "noEmail": "आपके पास कोई सक्रिय अस्थायी ईमेल नहीं है।"
+      },
+      "language": {
+        "name": "भाषा",
+        "description": "बोट की भाषा बदलें",
+        "current": "वर्तमान भाषा: {lang}",
+        "changed": "भाषा बदली गई: {lang}",
+        "available": "उपलब्ध भाषाएं: {languages}"
+      }
+    },
+    "errors": {
+      "generic": "एक त्रुटि हुई। कृपया बाद में पुनः प्रयास करें।",
+      "permission": "आपको इस कमांड का उपयोग करने की अनुमति नहीं है।",
+      "cooldown": "कृपया इस कमांड का फिर से उपयोग करने से पहले प्रतीक्षा करें।"
+    }
+  }
+}
